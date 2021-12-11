@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(department.jpeg);
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+}
+.menu-bar{
+	background: yellow;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li{
+	width: 120px;
+	padding: 15px;
+	margin: 15px;
+}
+.sub-menu1{
+	display: none;
+	
+}
+.menu-bar ul li:hover .sub-menu1{
+	display: block;
+	position: absolute;
+	background: black;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu1 ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+}
+	
+	
